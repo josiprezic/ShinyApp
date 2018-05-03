@@ -1,0 +1,6 @@
+framework module Pods_ShinyApp {
+  umbrella header "Pods-ShinyApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
