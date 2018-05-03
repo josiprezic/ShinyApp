@@ -70,6 +70,7 @@ class CurrentWeather {
                 if let temperature = dict["main"] as?  Dictionary<String, AnyObject> {
                     if let temp = temperature["temp"] as? Double {
                         self._currentTemp = temp - 273.15
+                        print("\(self._currentTemp)")
                     }
                 }
             }

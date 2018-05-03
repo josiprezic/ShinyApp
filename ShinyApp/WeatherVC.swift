@@ -35,6 +35,8 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 self.updateMainUI()
             }
         }
+        
+        print(CURRENT_WEATHER_URL)
     }
     
     func downloadForecastData(completed: @escaping DownloadComplete) {
@@ -85,11 +87,12 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func updateMainUI() {
         dateLabel.text = currentWeather.date
-        let temp = round((currentWeather.currentTemp*10)/10)
+        let temp = (round(currentWeather.currentTemp*10)/10)
+        //let temp = (String(currentWeather.currentTemp))
+        
         currentTempLabel.text = "\(temp)°"
         cityLabel.text = currentWeather.cityName
         currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
         currentWeatherLabel.text = currentWeather.weatherType
     }
 }
-
