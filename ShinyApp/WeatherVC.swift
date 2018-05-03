@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeatherVC.swift
 //  ShinyApp
 //
 //  Created by Josip Rezic on 02/05/2018.
