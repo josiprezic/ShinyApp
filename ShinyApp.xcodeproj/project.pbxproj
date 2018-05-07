@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ADA4297D3705BC3B4DB121A /* Pods_ShinyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE70B676F6252C0243D3F84 /* Pods_ShinyApp.framework */; };
+		82F0E909A016F9425224167B /* Pods_ShinyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D122EB1D117D526E445E4EB9 /* Pods_ShinyApp.framework */; };
 		D71249492099E827008046FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71249482099E827008046FB /* Constants.swift */; };
 		D714D7CC209B1B1E0054326F /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D714D7CB209B1B1E0054326F /* WeatherCell.swift */; };
 		D720C8802099EE6800DD0573 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720C87F2099EE6800DD0573 /* CurrentWeather.swift */; };
+		D759E5AE209C9F92002433B6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D759E5AD209C9F92002433B6 /* Location.swift */; };
 		D79D8D8C209AF1FF00E7D72D /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D8D8B209AF1FF00E7D72D /* Forecast.swift */; };
 		D7E6E3FA2099B28C007C1F8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6E3F92099B28C007C1F8A /* AppDelegate.swift */; };
 		D7E6E3FC2099B28C007C1F8A /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6E3FB2099B28C007C1F8A /* WeatherVC.swift */; };
@@ -20,12 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CE70B676F6252C0243D3F84 /* Pods_ShinyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E283D66A417CCA5E71D6570 /* Pods-ShinyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShinyApp/Pods-ShinyApp.debug.xcconfig"; sourceTree = "<group>"; };
-		34ECD89EA587CD2EEC97062D /* Pods-ShinyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShinyApp/Pods-ShinyApp.release.xcconfig"; sourceTree = "<group>"; };
+		664FA29FECDE82E031CE5648 /* Pods-ShinyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShinyApp/Pods-ShinyApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A81ACC98B2CAEDF0B1B6E83 /* Pods-ShinyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShinyApp/Pods-ShinyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D122EB1D117D526E445E4EB9 /* Pods_ShinyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71249482099E827008046FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D714D7CB209B1B1E0054326F /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		D720C87F2099EE6800DD0573 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		D759E5AD209C9F92002433B6 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D79D8D8B209AF1FF00E7D72D /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		D7E6E3F62099B28C007C1F8A /* ShinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E6E3F92099B28C007C1F8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,20 +43,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ADA4297D3705BC3B4DB121A /* Pods_ShinyApp.framework in Frameworks */,
+				82F0E909A016F9425224167B /* Pods_ShinyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D2E55757D3195FDC56F2030 /* Pods */ = {
+		55A917C18A84867F32C4CBE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E283D66A417CCA5E71D6570 /* Pods-ShinyApp.debug.xcconfig */,
-				34ECD89EA587CD2EEC97062D /* Pods-ShinyApp.release.xcconfig */,
+				D122EB1D117D526E445E4EB9 /* Pods_ShinyApp.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D7E6E3ED2099B28C007C1F8A = {
@@ -62,8 +63,8 @@
 			children = (
 				D7E6E3F82099B28C007C1F8A /* ShinyApp */,
 				D7E6E3F72099B28C007C1F8A /* Products */,
-				0D2E55757D3195FDC56F2030 /* Pods */,
-				E6CF698E941DD4AEF0B188C6 /* Frameworks */,
+				F81569E803856E05FE6AC2B8 /* Pods */,
+				55A917C18A84867F32C4CBE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				D7E6E4022099B28C007C1F8A /* LaunchScreen.storyboard */,
 				D7E6E4052099B28C007C1F8A /* Info.plist */,
 				D71249482099E827008046FB /* Constants.swift */,
+				D759E5AD209C9F92002433B6 /* Location.swift */,
 				D720C87F2099EE6800DD0573 /* CurrentWeather.swift */,
 				D79D8D8B209AF1FF00E7D72D /* Forecast.swift */,
 				D714D7CB209B1B1E0054326F /* WeatherCell.swift */,
@@ -92,12 +94,13 @@
 			path = ShinyApp;
 			sourceTree = "<group>";
 		};
-		E6CF698E941DD4AEF0B188C6 /* Frameworks */ = {
+		F81569E803856E05FE6AC2B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0CE70B676F6252C0243D3F84 /* Pods_ShinyApp.framework */,
+				8A81ACC98B2CAEDF0B1B6E83 /* Pods-ShinyApp.debug.xcconfig */,
+				664FA29FECDE82E031CE5648 /* Pods-ShinyApp.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7E6E4082099B28C007C1F8A /* Build configuration list for PBXNativeTarget "ShinyApp" */;
 			buildPhases = (
-				1FF13BFC940B01EC29461BB9 /* [CP] Check Pods Manifest.lock */,
+				7212C3A046F297460516DE8B /* [CP] Check Pods Manifest.lock */,
 				D7E6E3F22099B28C007C1F8A /* Sources */,
 				D7E6E3F32099B28C007C1F8A /* Frameworks */,
 				D7E6E3F42099B28C007C1F8A /* Resources */,
-				ACE0FC99484FA68A4608D513 /* [CP] Embed Pods Frameworks */,
+				3ADE561AFB88CC9311B0FD46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,25 +173,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FF13BFC940B01EC29461BB9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShinyApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACE0FC99484FA68A4608D513 /* [CP] Embed Pods Frameworks */ = {
+		3ADE561AFB88CC9311B0FD46 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +191,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShinyApp/Pods-ShinyApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7212C3A046F297460516DE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,6 +222,7 @@
 				D720C8802099EE6800DD0573 /* CurrentWeather.swift in Sources */,
 				D71249492099E827008046FB /* Constants.swift in Sources */,
 				D79D8D8C209AF1FF00E7D72D /* Forecast.swift in Sources */,
+				D759E5AE209C9F92002433B6 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,12 +357,13 @@
 		};
 		D7E6E4092099B28C007C1F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E283D66A417CCA5E71D6570 /* Pods-ShinyApp.debug.xcconfig */;
+			baseConfigurationReference = 8A81ACC98B2CAEDF0B1B6E83 /* Pods-ShinyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SM7U8AATW4;
 				INFOPLIST_FILE = ShinyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsdbih.josip.ShinyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,12 +374,13 @@
 		};
 		D7E6E40A2099B28C007C1F8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34ECD89EA587CD2EEC97062D /* Pods-ShinyApp.release.xcconfig */;
+			baseConfigurationReference = 664FA29FECDE82E031CE5648 /* Pods-ShinyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SM7U8AATW4;
 				INFOPLIST_FILE = ShinyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qsdbih.josip.ShinyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
